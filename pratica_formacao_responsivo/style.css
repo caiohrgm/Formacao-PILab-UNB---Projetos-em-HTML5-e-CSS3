@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap');
+
+/*------Início do Header------*/
+header{
+    border-bottom: 1px solid #E6E6E6;
+    width: 1348px;
+    margin-left: -7px;
+}
+
+header img{
+    position: relative;
+    height: 59.5px;
+    width: 96.5px;
+    left: 164.5px;
+    top: 11.5px;
+}
+
+header section nav #g1{
+    position: relative;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 26px;
+    letter-spacing: -0.065em;
+    color: #A80001;
+    text-decoration: none;
+    left: 300px;
+    top: -30.5px;
+}
+
+header section nav #ge{
+    position: relative;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 26px;
+    letter-spacing: -0.065em;
+    color: #06AA48;
+    text-decoration: none;
+    left: 310px;
+    top: -30.5px;
+}
+
+header section nav #cartola{
+    position: relative;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 26px;
+    letter-spacing: -0.065em;
+    color: #FF7F00;
+    text-decoration: none;
+    left: 320px;
+    top: -30.5px;
+}
+
+header section nav #tech{
+    position: relative;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 26px;
+    letter-spacing: -0.065em;
+    color: #666;
+    text-decoration: none;
+    left: 330px;
+    top: -30.5px;
+}
+
+header section nav #receitas{
+    position: relative;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 26px;
+    letter-spacing: -0.065em;
+    color: #A5147D;
+    text-decoration: none;
+    left: 340px;
+    top: -30.5px;
+}
+
+/*------Início do Body------*/
+main section #TopHeadLine h1{
+    position: relative;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 58px;
+    width: 663.5px;
+    height: 205.5px;
+    left: 167px;
+    top: -10.5px;
+    color: #CD150B;
+}
+
+main section #TopHeadLine p{
+    position: relative;
+    width: 576px;
+    height: 33.5px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.068em;
+    left: 167px;
+    top: -80px;
+    color: #CD150B;
+}
+
+main section #rectangle_1{
+    position: relative;
+    width: 592px;
+    height: 1px;
+    left: 167px;
+    top: -90px;
+    background: #E6E6E6;
+}
+
+main section #MidHeadLine #Mid1 img{
+    position: relative;
+    width: 171px;
+    height: 96px;
+    left: 167px;
+    top: -70px;
+}
+
+main section #MidHeadLine #Mid1 h2{
+    position: relative;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21.5px;
+    width: 174px;
+    height: 84px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    left: 167px;
+    top: -80px;
+    color: #CD150B;
+}
+
+main section #MidHeadLine #Mid1 p{
+    position: relative;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.5px;
+    width: 174px;
+    height: 42.5px;
+    line-height: 19px;
+    letter-spacing: -0.048em;
+    left: 167px;
+    top: -75px;
+    color: #CD150B;
+}
+
+main section #MidHeadLine #Mid2 img{
+    position: relative;
+    width: 171px;
+    height: 96px;
+    left: 376px;
+    top: -348px;
+}
+
+main section #MidHeadLine #Mid2 h2{
+    position: relative;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21.5px;
+    width: 174px;
+    height: 84px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    left: 376px;
+    top: -357px;
+    color: #CD150B;
+}
+
+main section #MidHeadLine #Mid2 p{
+    position: relative;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.5px;
+    width: 174px;
+    height: 42.5px;
+    line-height: 19px;
+    letter-spacing: -0.048em;
+    left: 376px;
+    top: -352px;
+    color: #CD150B;
+}
+
+main section #MidHeadLine #Mid3 img{
+    position: relative;
+    width: 171px;
+    height: 96px;
+    left: 586px;
+    top: -624px;
+}
+
+main section #MidHeadLine #Mid3 h2{
+    position: relative;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21.5px;
+    width: 174px;
+    height: 84px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    left: 586px;
+    top: -636px;
+    color: #CD150B;
+}
+
+main section #MidHeadLine #Mid3 p{
+    position: relative;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.5px;
+    width: 174px;
+    height: 42.5px;
+    line-height: 19px;
+    letter-spacing: -0.048em;
+    left: 586px;
+    top: -629.5px;
+    color: #CD150B;
+}
+
+main section #rectangle_2{
+    position: relative;
+    width: 592px;
+    height: 1px;
+    left: 167px;
+    margin-top: -650px;
+    background: #E6E6E6;
+}
+
+main section #BottomHeadLine #Bot1 h3{
+    position: relative;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    width: 123px;
+    height: 33px;
+    line-height: 25px;
+    letter-spacing: -0.068em;
+    left: 167px;
+    top: 10px;
+    color: #CD150B;
+}
+
+main section #BottomHeadLine #Bot1 p{
+    position: relative;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21.5px;
+    width: 174px;
+    height: 84px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    left: 167px;
+    bottom: 18.8px;
+    color: #000;
+}
+
+main section #BottomHeadLine #Bot2 h3{
+    position: relative;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    width: 123px;
+    height: 33px;
+    line-height: 25px;
+    letter-spacing: -0.068em;
+    left: 376px;
+    bottom: 150px;
+    color: #CD150B;
+}
+
+main section #BottomHeadLine #Bot2 p{
+    position: relative;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21.5px;
+    width: 174px;
+    height: 84px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    left: 376px;
+    bottom: 180px;
+    color: #000;
+}
+
+main section #BottomHeadLine #Bot3 h3{
+    position: relative;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    width: 123px;
+    height: 33px;
+    line-height: 25px;
+    letter-spacing: -0.068em;
+    left: 586px;
+    bottom: 310px;
+    color: #CD150B;
+}
+
+main section #BottomHeadLine #Bot3 p{
+    position: relative;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21.5px;
+    width: 174px;
+    height: 84px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    left: 586px;
+    bottom: 341px;
+    color: #000;
+}
+
+main #bar_1{
+    position: absolute;
+    width: 1px;
+    height: 670px;
+    left: 775.5px;
+    top: 143.5px;
+    background: #E1E1E1;
+}
+
+main #part_02 #TopNews img{
+    position: absolute;
+    width: 216.71px;
+    height: 122px;
+    left: 812px;
+    top: 143px;
+}
+
+main #part_02 #TopNews h2{
+    position: absolute;
+    width: 207px;
+    height: 84px;
+    left: 812px;
+    top: 255px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21.5px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    color: #06AA48;
+}
+
+main #part_02 #MidNews img{
+    position: absolute;
+    width: 216.71px;
+    height: 122px;
+    left: 812px;
+    top: 382px;
+}
+
+main #part_02 #MidNews h2{
+    position: absolute;
+    width: 207px;
+    height: 84px;
+    left: 812px;
+    top: 500px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21.5px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    color: #06AA48;
+}
+
+main #part_02 #BotNews h2{
+    position: absolute;
+    width: 219.5px;
+    height: 131.5px;
+    left: 812px;
+    top: 618px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21.5px;
+    line-height: 25px;
+    /* or 116% */
+
+    letter-spacing: -0.045em;
+
+    color: #06AA48;
+}
+
+main #part_02 #BotNews p{
+    position: absolute;
+    width: 219.5px;
+    height: 42.5px;
+    left: 812px;
+    top: 728px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.5px;
+    line-height: 19px;
+    letter-spacing: -0.048em;
+    color: #06AA48;
+}
+
+main #bar_2{
+    position: absolute;
+    width: 1px;
+    height: 670px;
+    left: 1067.5px;
+    top: 143.5px;
+    background: #E1E1E1;
+}
+
+main #part_03 #TopNews img{
+    position: absolute;
+    width: 216.71px;
+    height: 122px;
+    left: 1095px;
+    top: 143px;
+}
+
+main #part_03 #TopNews h2{
+    position: absolute;
+    width: 207px;
+    height: 84px;
+    left: 1095px;
+    top: 256px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21.5px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    color: #FF8203;
+}
+
+main #part_03 #TopNews p{
+    position: absolute;
+    width: 219.5px;
+    height: 26.5px;
+    left: 1095px;
+    top: 340px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.5px;
+    line-height: 19px;
+    letter-spacing: -0.048em;
+    color: #FF8203;
+}
+
+main #part_03 #MidNews img{
+    position: absolute;
+    width: 216.71px;
+    height: 122px;
+    left: 1095px;
+    top: 435px;
+}
+
+main #part_03 #MidNews h2{
+    position: absolute;
+    width: 207px;
+    height: 84px;
+    left: 1095px;
+    top: 550px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21.5px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+    color: #FF8203;
+}
