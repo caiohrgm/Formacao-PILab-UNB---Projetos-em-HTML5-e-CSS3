@@ -1,0 +1,770 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+@media (max-width: 935px)
+{
+    .facet_sidebar
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 613px)
+{
+    header #menu_middle{
+        display: none;
+    }
+    header #instagram_logo{
+        display: none;
+    }
+    header #bar_1{
+        display: none;
+    }
+  .facet_menu_buttons
+   {
+    display: none;
+   }
+}
+
+@media (min-width: 614px)
+{
+    header #insta_logo_mobile{
+        display: none;
+    }
+}
+
+/*------Início do Header------*/
+header{
+    display: flex;
+    width: 100%;
+    height: 54px;
+    background: #FFFFFF;
+    justify-content: center;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+header #menu_bar{
+    width: 100%;
+    max-width: 935px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+header #menu_left{
+    display:flex;
+}
+
+header #menu_right{
+    display:flex;
+}
+
+header #camera_logo{
+    width: 22px;
+    height: 22px;
+}
+
+header #bar_1{
+    width: 1px;
+    height: 22px;
+    margin-left: 12px;
+    margin-right: 12px;
+    background: #DBDBDB;
+}
+
+header #instagram_logo{
+    width: 103px;
+    height: 29px;
+}
+
+header input {
+    width: 215px;
+    height: 26px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #979797;
+}
+
+header .functions_logo{
+    margin-left: 12px;
+    width: 22px;
+    height: 22px;
+}
+/*-------------------------Início do Body----------------------------*/
+body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+/*-------Início do Story--------*/
+main #context #stories_container{
+    position: absolute;
+    width: 614px;
+    height: 118px;
+    left: 215px;
+    top: 88px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+main #context #story_01 #border_01{
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 233px;
+    top: 106px;
+    border-radius: 33px;
+}
+main #context #story_01 #nine_gag_01{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 238px;
+    top: 111px;
+    border-radius: 28px;
+}
+main #context #story_02 #border_02{
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 313px;
+    top: 106px;
+    border-radius: 33px;
+}
+main #context #story_02 #nine_gag_02{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 318px;
+    top: 111px;
+    border-radius: 28px;
+}
+main #context #story_03 #border_03{
+    position: absolute;
+    width: 67px;
+    height: 66px;
+    left: 393px;
+    top: 106px;
+    border-radius: 33px;
+}
+main #context #story_03 #nine_gag_03{
+    position: absolute;
+    width: 57px;
+    height: 56px;
+    left: 398px;
+    top: 111px;
+    border-radius: 28px;
+}
+main #context #story_04 #border_04{
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 473px;
+    top: 106px;
+    border-radius: 33px;
+}
+main #context #story_04 #nine_gag_04{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 478px;
+    top: 111px;
+    border-radius: 28px;
+}
+main #context #story_05 #border_05{
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 553px;
+    top: 106px;
+    border-radius: 33px;
+}
+main #context #story_05 #nine_gag_05{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 558px;
+    top: 111px;
+    border-radius: 28px;
+}
+main #context #story_06 #border_06{
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 633px;
+    top: 106px;
+    border-radius: 33px;
+}
+main #context #story_06 #nine_gag_06{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 638px;
+    top: 111px;
+    border-radius: 28px;
+}
+main #context #story_07 #border_07{
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 713px;
+    top: 106px;
+    border-radius: 33px;
+}
+main #context #story_07 #nine_gag_07{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 718px;
+    top: 111px;
+    border-radius: 28px;
+}
+
+main{
+    display: flex;
+    margin: 34px auto;
+}
+
+main #context #story_side_button img{
+    position: absolute;
+    margin-left: 590px;
+    left: 200px;
+    right: 20px;
+    top: 130px;
+    bottom: 9.38px;
+    background: #FFF;
+}
+
+/*-----Início do Feed-----*/
+main #context #feed #feed_border{
+    position: absolute;
+    width: 614px;
+    height: 749px;
+    left: 215px;
+    top: 230px;
+    
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+main #context #feed #profile_pic{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 232px;
+    top: 245px;
+    border-radius: 16px;
+}
+main #context #feed #insta_title{
+    position: absolute;
+    width: 109px;
+    height: 21px;
+    left: 279px;
+    top: 241px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+}
+main #context #feed #edit{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 796px;
+    top: 253px; 
+}
+main #context #feed #post{
+    position: absolute;
+    width: 612px;
+    height: 612px;
+    left: 216px;
+    top: 291px;
+}
+main #context #feed #like{
+    position: absolute;
+    margin-left: 190px;
+    left: 40px;
+    right: 20px;
+    top: 920px;
+    bottom: 9.38px;
+    border: 1.375px #000000;
+}
+main #context #feed #comment{
+    position: absolute;
+    margin-left: 220px;
+    left: 40px;
+    right: 20px;
+    top: 920px;
+    bottom: 9.38px;
+    border: 1.375px #000000;
+}
+main #context #feed #send{
+    position: absolute;
+    margin-left: 250px;
+    left: 40px;
+    right: 20px;
+    top: 920px;
+    bottom: 9.38px;
+    border: 1.375px #000000;
+}
+main #context #feed #save{
+    position: absolute;
+    margin-left: 760px;
+    left: 40px;
+    right: 20px;
+    top: 920px;
+    bottom: 9.38px;
+    border: 1.375px #000000;
+}
+main #context #feed #liked{
+    position: absolute;
+    margin-left: 190px;
+    left: 40px;
+    right: 20px;
+    top: 950px;
+    bottom: 400px;
+    border: 1.375px #000000;
+}
+
+main #context #feed #likes{
+    position: absolute;
+    width: 309px;
+    height: 21px;
+    margin-left: 220px;
+    left: 40px;
+    right: 20px;
+    top: 938px;
+    bottom: 400px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+/*--------------*/
+main #context #feed #feed_border_02{
+    position: absolute;
+    width: 614px;
+    height: 749px;
+    left: 215px;
+    top: 1030px;
+    
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+main #context #feed #profile_pic_02{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 232px;
+    top: 1050px;
+    border-radius: 16px;
+}
+main #context #feed #insta_title_02{
+    position: absolute;
+    width: 109px;
+    height: 21px;
+    left: 279px;
+    top: 1045px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+}
+main #context #feed #edit_02{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 796px;
+    top: 1056px; 
+}
+main #context #feed #post_02{
+    position: absolute;
+    width: 612px;
+    height: 612px;
+    left: 216px;
+    top: 1100px;
+}
+main #context #feed #like_02{
+    position: absolute;
+    margin-left: 190px;
+    left: 40px;
+    right: 20px;
+    top: 1725px;
+    bottom: 9.38px;
+    border: 1.375px #000000;
+}
+main #context #feed #comment_02{
+    position: absolute;
+    margin-left: 220px;
+    left: 40px;
+    right: 20px;
+    top: 1725px;
+    bottom: 9.38px;
+    border: 1.375px #000000;
+}
+main #context #feed #send_02{
+    position: absolute;
+    margin-left: 250px;
+    left: 40px;
+    right: 20px;
+    top: 1725px;
+    bottom: 9.38px;
+    border: 1.375px #000000;
+}
+main #context #feed #save_02{
+    position: absolute;
+    margin-left: 760px;
+    left: 40px;
+    right: 20px;
+    top: 1725px;
+    bottom: 9.38px;
+    border: 1.375px #000000;
+}
+main #context #feed #liked_02{
+    position: absolute;
+    margin-left: 190px;
+    left: 40px;
+    right: 20px;
+    top: 1750px;
+    bottom: 400px;
+    border: 1.375px #000000;
+}
+
+main #context #feed #likes_02{
+    position: absolute;
+    width: 309px;
+    height: 21px;
+    margin-left: 220px;
+    left: 40px;
+    right: 20px;
+    top: 1738px;
+    bottom: 400px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+/*--------Início da Aba lateral - Profile------*/
+main #profile_pic{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 858px;
+    top: 111px;
+    border-radius: 28px;
+}
+main #profile_insta{
+    position: absolute;
+    width: 182px;
+    height: 34px;
+    left: 931px;
+    top: 100px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+main #profile_name{
+    position: absolute;
+    width: 182px;
+    height: 34px;
+    left: 931px;
+    top: 115px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #8E8E8E;
+}
+/*--------Início da Aba lateral - Sugestões------*/
+main #sug_for_you{
+    position: absolute;
+    width: 117px;
+    height: 15px;
+    left: 858px;
+    top: 191px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #8E8E8E;
+}
+main #see_more{
+    position: absolute;
+    width: 55px;
+    height: 15px;
+    left: 1095px;
+    top: 191px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #262626;
+}
+
+main #sug_pic_01{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 858px;
+    top: 223px;
+    background: url(.png);
+    border-radius: 16px;
+}
+main #sug_insta_01{
+    position: absolute;
+    width: 126px;
+    height: 14px;
+    left: 901px;
+    top: 224px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+}
+main #follower_01{
+    position: absolute;
+    width: 143px;
+    height: 11px;
+    left: 901px;
+    top: 244px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #8E8E8E;
+}
+main #follow_01{
+    position: absolute;
+    width: 36px;
+    height: 11px;
+    left: 1114px;
+    top: 235px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #139EF2;
+}
+
+main #sug_pic_02{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 858px;
+    top: 271px;
+    background: url(.png);
+    border-radius: 16px;
+}
+main #sug_insta_02{
+    position: absolute;
+    width: 126px;
+    height: 14px;
+    left: 901px;
+    top: 272px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+}
+main #follower_02{
+    position: absolute;
+    width: 143px;
+    height: 11px;
+    left: 901px;
+    top: 292px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #8E8E8E;
+}
+main #follow_02{
+    position: absolute;
+    width: 36px;
+    height: 11px;
+    left: 1114px;
+    top: 283px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #139EF2;
+}
+
+main #sug_pic_03{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 858px;
+    top: 318px;
+    background: url(.png);
+    border-radius: 16px;
+}
+main #sug_insta_03{
+    position: absolute;
+    width: 126px;
+    height: 14px;
+    left: 901px;
+    top: 319px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+}
+main #follower_03{
+    position: absolute;
+    width: 143px;
+    height: 11px;
+    left: 901px;
+    top: 339px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #8E8E8E;
+}
+main #follow_03{
+    position: absolute;
+    width: 36px;
+    height: 11px;
+    left: 1114px;
+    top: 330px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #139EF2; 
+}
+
+main #sug_pic_04{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 858px;
+    top: 366px;
+    background: url(.png);
+    border-radius: 16px;
+}
+main #sug_insta_04{
+    position: absolute;
+    width: 126px;
+    height: 14px;
+    left: 901px;
+    top: 367px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+}
+main #follower_04{
+    position: absolute;
+    width: 143px;
+    height: 11px;
+    left: 901px;
+    top: 387px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #8E8E8E;
+}
+main #follow_04{
+    position: absolute;
+    width: 36px;
+    height: 11px;
+    left: 1114px;
+    top: 378px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #139EF2;
+}
+
+
