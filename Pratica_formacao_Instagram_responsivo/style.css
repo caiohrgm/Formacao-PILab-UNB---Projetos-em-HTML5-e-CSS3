@@ -10,7 +10,7 @@
 
 @media (max-width: 613px)
 {
-    header #menu_middle{
+    header #search_bar{
         display: none;
     }
     header #instagram_logo{
