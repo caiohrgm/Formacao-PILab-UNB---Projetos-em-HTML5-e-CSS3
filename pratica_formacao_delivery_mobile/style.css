@@ -76,9 +76,13 @@ main img{
     max-width: 100px; 
     max-height: 100px;
 }
-
-footer{
+footer div{
+    display: flex;
+    justify-content: center;
+}
+footer button{
     position: fixed;
     bottom: 0px;
-    margin-left: 135px;
+    background-color: brown;
+    color:burlywood;
 }
