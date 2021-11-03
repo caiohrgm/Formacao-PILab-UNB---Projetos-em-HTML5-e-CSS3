@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap');
+@media (max-width: 600px){
+    #btn-mobile{
+        display:block;
+    }
+}
+
+/*Início do header*/
+header{
+    height: 70px;
+    display: flex;
+    margin: auto;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    background-image: url("img/fat_bckg_02.png");
+    position: fixed;
+    top: 0px;
+}
+header #title{
+    display: flex;
+    font-family: Raleway;
+    color:maroon;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    border-color: black;
+    -webkit-text-stroke-width: 0.10px; /* largura da borda */
+    -webkit-text-stroke-color:rgb(255, 248, 248);
+}
+/*---Início da Main---*/
+main{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+}
+main .type_title{
+    font-family: Raleway;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+main .description{
+    margin-top: 5px;
+    font-family: Raleway;
+    font-weight: bolder;
+    font-size: 10px;
+}
+main .price{
+    margin-top: -5px;
+    font-family: Raleway;
+    font-size: 10px;
+}
+main .produto{
+    display: grid;
+    margin-left: 20px;
+    ;
+    margin-top: -5px;
+    
+}
+.produto:hover{
+    border: 3px solid tomato;
+}
+main .rectangle{
+    background-color:rgb(237, 238, 240);
+    overflow-x: scroll;
+}
+main .lista{
+    padding: 0px;
+    display:flex;
+}
+main img{
+    height: 100px; 
+    width: 100px; 
+    max-width: 100px; 
+    max-height: 100px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    margin-left: 135px;
+}
