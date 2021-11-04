@@ -22,12 +22,12 @@ header{
 header #title{
     display: flex;
     font-family: Raleway;
-    color:burlywood;
+    color:brown;
     font-size: 30px;
     font-style: normal;
     font-weight: normal;
-    -webkit-text-stroke-width: 0.2px; /* largura da borda */
-    -webkit-text-stroke-color:brown;
+    -webkit-text-stroke-width:0.0275px; /* largura da borda */
+    -webkit-text-stroke-color:burlywood;
 }
 /*---Início da Main---*/
 main{
@@ -55,7 +55,6 @@ main .price{
 main .produto{
     display: grid;
     margin-left: 20px;
-    ;
     margin-top: -5px;
     
 }
