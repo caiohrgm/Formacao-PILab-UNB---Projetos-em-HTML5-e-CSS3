@@ -9,7 +9,8 @@
 header{
     height: 70px;
     display: flex;
-    margin: auto;
+    flex-direction:inherit;
+    margin-left: -8px;
     box-sizing: border-box;
     width: 100%;
     padding: 0px;
@@ -22,12 +23,22 @@ header{
 header #title{
     display: flex;
     font-family: Raleway;
-    color:brown;
+    color:black;
     font-size: 30px;
     font-style: normal;
     font-weight: normal;
     -webkit-text-stroke-width:0.0275px; /* largura da borda */
-    -webkit-text-stroke-color:burlywood;
+    -webkit-text-stroke-color: brown;
+}
+header #bolota{
+    display: flex;
+    font-family: Raleway;
+    color:brown;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-text-stroke-width:1px; /* largura da borda */
+    -webkit-text-stroke-color: burlywood;
 }
 /*---Início da Main---*/
 main{
@@ -58,13 +69,15 @@ main .produto{
     margin-top: -5px;
     
 }
-.produto:hover{
-    border: 3px solid tomato;
+.selecionado {
+    border: 3px solid brown;
 }
+
 main .rectangle{
     background-color:rgb(237, 238, 240);
     overflow-x: scroll;
 }
+
 main .lista{
     padding: 0px;
     display:flex;
@@ -78,7 +91,18 @@ main img{
 footer div{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 100px;
+}
+footer p{
+    font-family: Raleway;
+    font-weight: bold;
+    min-height: 20px;
+    padding: 3px;
+    background-color: burlywood;
+    left: 0px;
+    width: 100%;
+    position: fixed;
+    bottom: 30px;
 }
 footer button{
     position: fixed;

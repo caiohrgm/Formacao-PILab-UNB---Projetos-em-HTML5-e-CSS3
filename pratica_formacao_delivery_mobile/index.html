@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Pelota Bolota</title>
+    <script src="js/scripts.js"></script>
 </head>
 <body>
     <header>
-        <h2 id="title"> <strong>Pelota Bolota</strong></h2>
+        <h2 id="title"> <strong>Pelota</strong>  <strong id="bolota">Bolota</strong></h2>
     </header>
 
     <main>
@@ -17,24 +18,24 @@
         <section id="bebidas">
             <div class="rectangle">
                 <ul class="lista">
-                    <div class="produto"">
-                        <img id="laranja" src="img/Bebidas/suco_laranja.jpg" alt="">
-                        <h2 class="description">Suco de Laranja</h2>
+                    <div name="bebidas" class="produto bebida1" onclick="selecionaBebida(1,7.9)">
+                        <img id="laranja" src="img/Bebidas/suco_laranja.png" alt="">
+                        <h2 class="description">Suco de Laranja 300 ml</h2>
                         <p class="price">R$ 7,90</p>
                     </div>
-                    <div class="produto"">
+                    <div name="bebidas" class="produto bebida2" onclick="selecionaBebida(2,7.9)">
                         <img id="uva" src="img/Bebidas/suco_uva.png" alt="">
-                        <h2 class="description">Suco de Uva</h2>
+                        <h2 class="description">Suco de Uva 300 ml</h2>
                         <p class="price">R$ 7,90</p>
                     </div>
-                    <div class="produto"">
+                    <div name="bebidas" class="produto bebida3" onclick="selecionaBebida(3,3.9)">
                         <img id="agua" src="img/Bebidas/agua.jpg" alt="">
-                        <h2 class="description">Água</h2>
+                        <h2 class="description">Água 500 ml</h2>
                         <p class="price">R$ 3,90</p>
                     </div>
-                    <div class="produto"">
-                        <img id="coca_cola" src="img/Bebidas/coca_cola.jfif" alt="">
-                        <h2 class="description">Coca-Cola</h2>
+                    <div name="bebidas" class="produto bebida4" onclick="selecionaBebida(4,4.9)">
+                        <img id="coca_cola" src="img/Bebidas/coca_cola.png" alt="">
+                        <h2 class="description">Coca-Cola 350 ml</h2>
                         <p class="price">R$ 4,90</p>
                     </div>
                 </ul>
@@ -45,23 +46,23 @@
         <section id="pratos">
             <div class="rectangle">
                 <ul class="lista">
-                    <div class="produto">
+                    <div class="produto prato1" onclick="selecionaPratos(1)">
                         <img id="hamburguer" src="img/Pratos/hamburguer.png" alt="">
                         <h2 class="description">Hamburguer</h2>
                         <p class="price">R$ 15,90</p>
                     </div>
-                    <div class="produto">
-                        <img id="lasanha" src="img/Pratos/lasanha.jpg" alt="">
+                    <div class="produto prato2" onclick="selecionaPratos(2)">
+                        <img id="lasanha" src="img/Pratos/lasanha.png" alt="">
                         <h2 class="description">Lasanha Individual</h2>
                         <p class="price">R$ 19,90</p>
                     </div>
-                    <div class="produto">
-                        <img id="pizza" src="img/Pratos/pizza.jfif" alt="">
+                    <div class="produto prato3" onclick="selecionaPratos(3)">
+                        <img id="pizza" src="img/Pratos/pizza.png" alt="">
                         <h2 class="description">Pizza Individual</h2>
                         <p class="price">R$ 20,90</p>
                     </div>
-                    <div class="produto">
-                        <img id="strogonoff" src="img/Pratos/strogonoff.jpg" alt="">
+                    <div class="produto prato4" onclick="selecionaPratos(4)">
+                        <img id="strogonoff" src="img/Pratos/strogonoff.png" alt="">
                         <h2 class="description">Strogonoff</h2>
                         <p class="price">R$ 22,90</p>
                     </div>
@@ -73,22 +74,22 @@
         <section id="sobremesas">
             <div class="rectangle">
                 <ul class="lista">
-                    <div class="produto">
+                    <div class="produto sobremesa1" onclick="selecionaSobremesas(1)">
                         <img id="bolo" src="img//Sobremesas/bolo.jpg" alt="">
                         <h2 class="description">Bolo de chocolate</h2>
                         <p class="price">R$ 9,90</p>
                     </div>
-                    <div class="produto">
+                    <div class="produto sobremesa2" onclick="selecionaSobremesas(2)">
                         <img id="pave" src="img/Sobremesas/pavê.jfif" alt="">
                         <h2 class="description">Pavê</h2>
                         <p class="price">R$ 12,90</p>
                     </div>
-                    <div class="produto">
+                    <div class="produto sobremesa3" onclick="selecionaSobremesas(3)">
                         <img id="petit_gateau" src="img/Sobremesas/petit_gateau.jpg" alt="">
                         <h2 class="description">Petit Gateau</h2>
                         <p class="price">R$ 15,90</p>
                     </div>
-                    <div class="produto">
+                    <div class="produto sobremesa4" onclick="selecionaSobremesas(4)">
                         <img id="pudim" src="img/Sobremesas/pudim.png" alt="">
                         <h2 class="description">Pudim</h2>
                         <p class="price">R$ 8,90</p>
@@ -98,10 +99,54 @@
         </section>
 
         <footer>
+            <p class="valor_pedido">Total do Pedido:</p>
             <div>
-                <button>Fechar Pedido</button>
+                <button onclick="somaPedido()">Fechar Pedido</button>
             </div>
         </footer>
     </main>
+
+    <script>
+        let bebida = false;
+        let prato = false;
+        let sobremesa = false;
+        let total_do_pedido = 0;
+
+        let valor_bebida = 0;
+        let valor_prato = 0;
+        let valor_sobremesa = 0;
+
+        function selecionaBebida(position, price) {
+            const bebidasall = document.getElementsByName("bebidas")
+
+            bebidasall.forEach(item =>{
+                if(document.getElementsByClassName("selecionado")){
+                    item.classList.remove("selecionado");
+                    valor_bebida = 0;
+                }
+            })
+
+            if(!bebida) {
+                const item = document.querySelector(".bebida"+position);
+                item.classList.add("selecionado");
+                valor_bebida = price;
+                bebida = true;
+            }
+            else{
+                const item = document.querySelector(".bebida"+position);
+                item.classList.remove("selecionado");
+                valor_bebida = 0;
+                bebida = false;
+            }
+            somaPedido();
+        }
+
+        function somaPedido(){
+            total_do_pedido = valor_bebida + valor_prato + valor_sobremesa;
+            const item = document.querySelector(".valor_pedido");
+            item.innerHTML = `Total do Pedido: R$ ${total_do_pedido}`;
+        }
+
+    </script>
 </body>
 </html>
