@@ -89,6 +89,14 @@ function somaPedido(){
 
 function fechaPedido(){
     if(bebida == true && prato == true && sobremesa == true){
-        window.open('https://wa.me/5583991230473');
+        var msg = "Boa noite. Eu gostaria de fazer o seguinte pedido:\n\
+                - Prato: xxxxx\n\
+                - Bebida: xxxxx\n\
+                - Sobremesa: xxxxx\n\
+                Total: R$ xxxx.xx"
+        let target = `https://api.whatsapp.com/send?text=${encodeURIComponent(msg)}`
+        
+        window.open(target);
+
     }
 }
