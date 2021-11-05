@@ -1,11 +1,12 @@
 let bebida = false;
 let prato = false;
 let sobremesa = false;
-let total_do_pedido = 0;
+let check_pedido =false;
 
 let valor_bebida = 0;
 let valor_prato = 0;
 let valor_sobremesa = 0;
+let total_do_pedido = 0;
 
 function selecionaBebida(position, price) {
     const bebidasall = document.getElementsByName("bebidas")
@@ -13,6 +14,7 @@ function selecionaBebida(position, price) {
         if(document.getElementsByClassName("selecionado")){
             item.classList.remove("selecionado");
             valor_bebida = 0;
+            bebida = false;
         }
     })
 
@@ -37,6 +39,7 @@ function selecionaPrato(position, price) {
         if(document.getElementsByClassName("selecionado")){
             item.classList.remove("selecionado");
             valor_prato = 0;
+            prato = false;
         }
     })
     if(!prato) {
@@ -60,6 +63,7 @@ function selecionaSobremesa(position, price) {
         if(document.getElementsByClassName("selecionado")){
             item.classList.remove("selecionado");
             valor_sobremesa = 0;
+            sobremesa = false;
         }
     })  
     if(!sobremesa) {
@@ -81,4 +85,10 @@ function somaPedido(){
     total_do_pedido = valor_bebida + valor_prato + valor_sobremesa;
     const item = document.querySelector(".valor_pedido");
     item.innerHTML = `Total do Pedido: R$ ${total_do_pedido.toFixed(2)}`;
+}
+
+function fechaPedido(){
+    if(bebida == true && prato == true && sobremesa == true){
+        window.open('https://wa.me/5583991230473');
+    }
 }
